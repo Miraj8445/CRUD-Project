@@ -1,0 +1,68 @@
+/* CSS file: profile.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Profile container */
+.profile-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Header and text styling */
+h1, h3 {
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Link styling */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #45a049;
+}
+
+/* Additional link styles */
+.logout-link {
+    font-weight: bold;
+}
+
+.links-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.data-link {
+    color: #4CAF50;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.data-link:hover {
+    color: #45a049;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .profile-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1, h3 {
+        font-size: 18px;
+    }
+}
