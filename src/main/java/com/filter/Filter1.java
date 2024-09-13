@@ -38,9 +38,7 @@ public class Filter1 implements Filter {
 			chain.doFilter(req, res);
 
 		}else {
-			RequestDispatcher rd = req.getRequestDispatcher("index.html");
-//			PrintWriter out = res.getWriter();
-//			out.print("Password length should minimum 10.");
+			RequestDispatcher rd = req.getRequestDispatcher("index.html");
 			rd.include(req, res);
 		}
 
